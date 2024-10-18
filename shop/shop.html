@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Growtopia Private Server is one of the first and most successful Growtopia Private Servers!"
+    />
+    <meta
+      name="keywords"
+      content="gtps, neotopia, NeoTopia, NEOTOPIA, growtopia private server"
+    />
+    <meta name="author" content="Karma" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shop - NeoTopia</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@6.9.96/css/materialdesignicons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/css/style.min.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/images/wl.png" />
+  </head>
+  <body>
+    <div class="headerbg"></div>
+    <div class="container">
+      <header class="topbar">
+        <div class="topbar__left"></div>
+        <div class="topbar__right">
+          <a href="/account">
+            <div
+              class="profile"
+              data-izimodal-open="#login-modal"
+              data-izimodal-transitionin="fadeInDown"
+            >
+              <div class="profile__data">
+                <div class="profile__name">Guest's Bag</div>
+                <div class="profile__value">Account Recovery</div>
+              </div>
+              <div class="profile__avatar">
+                <img
+                  alt="Growtopia Account Recovery"
+                  src="/images/normal_player.png"
+                />
+              </div>
+            </div>
+          </a>
+        </div>
+      </header>
+
+      <div class="atomheader">
+        <div class="header__logo">
+          <a href="/">
+            <img
+              alt="Growtopia Logo"
+              class="img-responsive"
+              src="/images/neotopia_title.png"
+            />
+          </a>
+        </div>
+        <div class="panel-body">
+          <div class="header-statistics">
+            <div class="server">
+              <div class="server__icon">
+                <img
+                  height="70"
+                  width="100"
+                  class="img-responsive"
+                  alt="Golden Growtopia Player"
+                  src="/images/golden_player.png"
+                />
+              </div>
+              <div class="server__info">
+                <div class="server__name">45.90.13.132 www.growtopia1.com</div>
+                <div class="server__name">45.90.13.132 www.growtopia2.com</div>
+              </div>
+            </div>
+            <div class="socials">
+              <a href="https://discord.gg/neotopia" class="social">
+                <div class="social__icon">
+                  <span class="mdi mdi-discord"></span>
+                </div>
+                <div class="social__status">
+                  <span class="social__text" id="discord-online">discord</span>
+                  <span class="social__text social__text--hover"> join </span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main class="body">
+        <aside class="sidebar">
+          <div class="panel">
+            <div class="panel-heading">Menu</div>
+            <div class="panel-body">
+              <nav class="navigation">
+                <div class="navigation__item">
+                  <a href="/">
+                    <img
+                      alt="Growtopia Megaphone"
+                      src="/images/megaphone.png"
+                      class="navigation__icon"
+                    />
+                    Home
+                  </a>
+                </div>
+                <div class="navigation__item active">
+                  <a href="/shop/shop.html">
+                    <img
+                      alt="Growtopia Shop"
+                      src="/images/vending.png"
+                      class="navigation__icon"
+                    />
+                    Shop
+                  </a>
+                </div>
+                <div class="navigation__item">
+                  <a href="/tutorial/tutorial.html">
+                    <img
+                      alt="Growtopia How to Play"
+                      src="/images/tutorial.png"
+                      class="navigation__icon"
+                    />
+                    How to play
+                  </a>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </aside>
+        <div class="content">
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <div class="home-header">
+                <div>
+                  <div class="home-header__subheading">SHOP</div>
+                  <div class="home-header__heading">NEOTOPIA</div>
+                </div>
+              </div>
+
+              <section class="sec">
+                <div class="asset">
+                  <!-- START CARD -->
+                  <div
+                    class="card"
+                    data-name="Legendary MAGPLANT 5000"
+                    data-price="5000"
+                  >
+                    <div class="img">
+                      <img
+                        src="/shop/asset-src/lmag.png"
+                        alt="Legendary MAGPLANT 5000"
+                      />
+                    </div>
+                    <div class="desc">NeoTopia Asset</div>
+                    <div class="title">Legendary MAGPLANT 5000</div>
+                    <div class="box">
+                      <div class="price">$5000</div>
+                    </div>
+                    <div class="quantity-control">
+                      <button
+                        class="btn quantity-btn"
+                        onclick="changeQuantity(this, -1)"
+                      >
+                        -
+                      </button>
+                      <span class="quantity-circle">0</span>
+                      <button
+                        class="btn quantity-btn"
+                        onclick="changeQuantity(this, 1)"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                  <!-- END CARD -->
+
+                  <!-- START CARD -->
+                  <div
+                    class="card"
+                    data-name="Magplant (100k)"
+                    data-price="250"
+                  >
+                    <div class="img">
+                      <img
+                        src="/shop/asset-src/mag100k.png"
+                        alt="Magplant (100k)"
+                      />
+                    </div>
+                    <div class="desc">NeoTopia Asset</div>
+                    <div class="title">Magplant (100k)</div>
+                    <div class="box">
+                      <div class="price">$250</div>
+                    </div>
+                    <div class="quantity-control">
+                      <button
+                        class="btn quantity-btn"
+                        onclick="changeQuantity(this, -1)"
+                      >
+                        -
+                      </button>
+                      <span class="quantity-circle">0</span>
+                      <button
+                        class="btn quantity-btn"
+                        onclick="changeQuantity(this, 1)"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                  <!-- END CARD -->
+
+                  <!-- START CARD -->
+                  <div class="card" data-name="Magplant (15k)" data-price="150">
+                    <div class="img">
+                      <img
+                        src="/shop/asset-src/mag 15k.png"
+                        alt="Magplant (15k)"
+                      />
+                    </div>
+                    <div class="desc">NeoTopia Asset</div>
+                    <div class="title">Magplant (15k)</div>
+                    <div class="box">
+                      <div class="price">$150</div>
+                    </div>
+                    <div class="quantity-control">
+                      <button
+                        class="btn quantity-btn"
+                        onclick="changeQuantity(this, -1)"
+                      >
+                        -
+                      </button>
+                      <span class="quantity-circle">0</span>
+                      <button
+                        class="btn quantity-btn"
+                        onclick="changeQuantity(this, 1)"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                  <!-- END CARD -->
+
+                  <!-- START CARD -->
+                  <div
+                    class="card"
+                    data-name="PYG Grim Reaper Hood"
+                    data-price="7000"
+                  >
+                    <div class="img">
+                      <img
+                        src="/shop/asset-src/PYG.png"
+                        alt="PYG Grim Reaper Hood"
+                      />
+                    </div>
+                    <div class="desc">NeoTopia Asset</div>
+                    <div class="title">PYG Grim Reaper Hood</div>
+                    <div class="box">
+                      <div class="price">$7000</div>
+                    </div>
+                    <div class="quantity-control">
+                      <button
+                        class="btn quantity-btn"
+                        onclick="changeQuantity(this, -1)"
+                      >
+                        -
+                      </button>
+                      <span class="quantity-circle">0</span>
+                      <button
+                        class="btn quantity-btn"
+                        onclick="changeQuantity(this, 1)"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                  <!-- END CARD -->
+
+                  <!-- START CARD -->
+                  <div
+                    class="card"
+                    data-name="Cheer Universal Scarf"
+                    data-price="99"
+                  >
+                    <div class="img">
+                      <img src="/shop/asset-src/Uni.png" alt="unisca" />
+                    </div>
+                    <div class="desc">NeoTopia Asset</div>
+                    <div class="title">Cheer Universal Scarf</div>
+                    <div class="box">
+                      <div class="price">$99</div>
+                    </div>
+                    <div class="quantity-control">
+                      <button
+                        class="btn quantity-btn"
+                        onclick="changeQuantity(this, -1)"
+                      >
+                        -
+                      </button>
+                      <span class="quantity-circle">0</span>
+                      <button
+                        class="btn quantity-btn"
+                        onclick="changeQuantity(this, 1)"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                  <!-- END CARD -->
+
+                  <!-- START CARD -->
+                  <div
+                    class="card"
+                    data-name="Horn of Gluttony"
+                    data-price="70"
+                  >
+                    <div class="img">
+                      <img
+                        src="/shop/asset-src/hornofglut.png"
+                        alt="hornofglut"
+                      />
+                    </div>
+                    <div class="desc">NeoTopia Asset</div>
+                    <div class="title">Horn of Gluttony</div>
+                    <div class="box">
+                      <div class="price">$70</div>
+                    </div>
+                    <div class="quantity-control">
+                      <button
+                        class="btn quantity-btn"
+                        onclick="changeQuantity(this, -1)"
+                      >
+                        -
+                      </button>
+                      <span class="quantity-circle">0</span>
+                      <button
+                        class="btn quantity-btn"
+                        onclick="changeQuantity(this, 1)"
+                      >
+                        +
+                      </button>
+                    </div>
+                  </div>
+                  <!-- END CARD -->
+
+                  <!-- Add more cards as needed -->
+                </div>
+
+                <div id="cart">
+                  <h2>🛒 Cart</h2>
+                  <div id="cart-items"></div>
+                  <div id="cart-total">Total: $0.00</div>
+                  <button onclick="checkout()">Checkout</button>
+                </div>
+
+                <div id="payment-methods">
+                  <h3>Select Payment Method:</h3>
+                  <div class="payment-buttons">
+                    <button
+                      onclick="selectPaymentMethod('Dana')"
+                      class="payment-button"
+                      data-method="Dana"
+                    >
+                      <img src="./asset-src/Dana.png" alt="Dana" />
+                    </button>
+                    <button
+                      onclick="selectPaymentMethod('Gopay')"
+                      class="payment-button"
+                      data-method="Gopay"
+                    >
+                      <img src="./asset-src/gopay.png" alt="Gopay" />
+                    </button>
+                    <button
+                      onclick="selectPaymentMethod('ShopeePay')"
+                      class="payment-button"
+                      data-method="ShopeePay"
+                    >
+                      <img src="./asset-src/so.png" alt="ShopeePay" />
+                    </button>
+                    <button
+                      onclick="selectPaymentMethod('PayPal')"
+                      class="payment-button"
+                      data-method="PayPal"
+                    >
+                      <img src="./asset-src/paypal.png" alt="PayPal" />
+                    </button>
+                  </div>
+                </div>
+
+                <div id="purchaseModal" class="modal">
+                  <div class="modal-background"></div>
+                  <div class="modal-content">
+                    <h2>Confirm Purchase</h2>
+                    <p id="modal-text"></p>
+                    <button onclick="confirmPurchase()">
+                      Confirm Purchase
+                    </button>
+                    <button onclick="closeModal()">Cancel</button>
+                  </div>
+                </div>
+
+                <div id="purchaseSuccessModal" class="modal">
+                  <div class="modal-background"></div>
+                  <div class="modal-content">
+                    <h2>Purchase Complete!</h2>
+                    <p>Your purchase was successful.</p>
+                    <button onclick="closeSuccessModal()">Close</button>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer__rows">
+          <div class="footer__col">
+            <div class="footer__title">RULES</div>
+            <div class="footer__content">
+              <strong>NEOTOPIA</strong> It's important to note that playing on
+              our private server is typically separate from the official
+              Growtopia servers and involves connecting to a different server
+              address.
+            </div>
+          </div>
+
+          <div class="footer__col">
+            <div class="footer__title">CONTACT US</div>
+            <div class="footer__content">
+              If you have any questions or concerns, you can contact us on our
+              Discord.
+              <a
+                class="button button--primary"
+                style="margin-top: 8px"
+                href="https://discord.gg/neotopia"
+                >Discord Server</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <div class="footer__rights">
+            <strong>All rights reserved. 2024 © NEOTOPIA</strong>
+            <small>We’re not affiliated with or endorsed by Ubisoft.</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script-shop.js"></script>
+  </body>
+</html>
