@@ -14,7 +14,7 @@ Welcome to the GTPS Karma Official Website! This site serves as the hub for one 
 
 ## Getting Started
 
-1. **Access the Website**: Visit [NeoTopia Official Website](http://yourwebsiteurl.com).
+1. **Access the Website**: Visit [NeoTopia Official Website](discord.gg/neotopia).
 2. **Login**: Click the "Login" button to enter your credentials.
 3. **Explore**: Navigate through the menu to access the shop, tutorials, and community features.
 
@@ -31,7 +31,7 @@ Welcome to the GTPS Karma Official Website! This site serves as the hub for one 
 
 ## Contact Us
 
-If you have any questions or concerns, please reach out through our [Discord Server](https://discord.gg/neotopia).
+If you have any questions or concerns, please reach out through our Discord (Karma).
 
 ## Legal Notice
 
